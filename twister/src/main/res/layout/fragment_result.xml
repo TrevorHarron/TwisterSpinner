@@ -1,0 +1,33 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CircleView="http://schemas.android.com/apk/com.gurutre.twister"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white_background"
+    tools:context="com.gurutre.twister.SpinResultFragment">
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="@string/dummy_result"
+        android:textColor="@color/black_overlay"
+        android:textAlignment="center"
+        android:textSize="24sp"/>
+
+    <!-- The Circle currently is a partial
+        view being drawn starting on the point 0,0 -->
+    <com.gurutre.twister.CircleView
+        android:id="@+id/color_swatch"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        CircleView:radius="80"
+        CircleView:fillColor="@color/black_overlay"
+        CircleView:strokeColor="@color/black_overlay"
+        CircleView:startAtScreenOrigin="true"
+        android:layout_below="@+id/result_text"
+        android:background="@color/white_background"/>
+</RelativeLayout>
+
+

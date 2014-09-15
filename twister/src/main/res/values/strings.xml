@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Twist Up Spinner</string>
+    <string name="spin_button">Spin!</string>
+    <string name="use_voice_button">Use Voice</string>
+    <string name="welcome_content">Welcome\n to the\n\'Twist Up\'\n Spinner!</string>
+    <string name="and_the_result">And the result is:\n</string>
+    <string name="dummy_result">Some limb on some color</string>
+    <string name="title_activity_use_voice">Use your Voice</string>
+    <string name="use_voice_title">Use your voice to play \'Twist Up\'</string>
+    <string name="use_button_title">Click the button to spin</string>
+    <string name="use_button">Use Button</string>
+    <string name="use_voice">Use Voice</string>
+
+</resources>

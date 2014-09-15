@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/gurutre/workspace/TwisterSpinner/twister/build/intermediates/pre-dexed/release/support-v4-18.0.0-ae860dbd3ec336f03265a0f2b95780e62dc06b12.jar"
+        jar="/home/gurutre/android-sdk-linux/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156"/>
+
+</pre-dex-items>
