@@ -97,7 +97,7 @@ public class UseVoiceActivity extends Activity implements View.OnClickListener, 
     }
 
     private void spinAndShow() {
-        final FragmentManager f =this.getFragmentManager();
+        final FragmentManager f = this.getFragmentManager();
         final int spin = new Random(System.currentTimeMillis()).nextInt(16);
 
         if (!tts.isSpeaking())
@@ -122,7 +122,6 @@ public class UseVoiceActivity extends Activity implements View.OnClickListener, 
         } else {
             tts = null;
             Toast.makeText(this, "Failed to initialize Text-To-Speech.",Toast.LENGTH_SHORT).show();
-
         }
 
     }
